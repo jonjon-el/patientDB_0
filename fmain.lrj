@@ -1,0 +1,12 @@
+{"version":1,"strings":[
+{"hash":5073153,"name":"tform1.caption","sourcebytes":[70,111,114,109,49],"value":"Form1"},
+{"hash":50655736,"name":"tform1.label1.caption","sourcebytes":[67,108,105,110,105,99,32,88],"value":"Clinic X"},
+{"hash":124225173,"name":"tform1.label2.caption","sourcebytes":[80,97,116,105,101,110,116,32,100,97,116,97,98,97,115,101],"value":"Patient database"},
+{"hash":18340,"name":"tform1.button1.caption","sourcebytes":[65,100,100],"value":"Add"},
+{"hash":310020,"name":"tform1.button2.caption","sourcebytes":[69,100,105,116],"value":"Edit"},
+{"hash":5815449,"name":"tform1.button3.caption","sourcebytes":[81,117,101,114,121],"value":"Query"},
+{"hash":78392485,"name":"tform1.button4.caption","sourcebytes":[68,101,108,101,116,101],"value":"Delete"},
+{"hash":21279012,"name":"tform1.button5.caption","sourcebytes":[71,101,110,101,114,97,116,101,32,82,101,112,111,114,116],"value":"Generate Report"},
+{"hash":315140,"name":"tform1.button6.caption","sourcebytes":[69,120,105,116],"value":"Exit"},
+{"hash":93027262,"name":"tform1.label3.caption","sourcebytes":[82,101,97,100,121,46],"value":"Ready."}
+]}

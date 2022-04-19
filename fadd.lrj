@@ -1,0 +1,16 @@
+{"version":1,"strings":[
+{"hash":5073154,"name":"tform2.caption","sourcebytes":[70,111,114,109,50],"value":"Form2"},
+{"hash":75115572,"name":"tform2.groupbox1.caption","sourcebytes":[68,97,116,97,32,111,102,32,116,104,101,32,112,97,116,105,101,110,116],"value":"Data of the patient"},
+{"hash":21203,"name":"tform2.label1.caption","sourcebytes":[78,73,67],"value":"NIC"},
+{"hash":48696309,"name":"tform2.label2.caption","sourcebytes":[70,117,108,108,32,110,97,109,101],"value":"Full name"},
+{"hash":162145161,"name":"tform2.label3.caption","sourcebytes":[66,105,114,116,104,32,100,97,121],"value":"Birth day"},
+{"hash":81545922,"name":"tform2.label4.caption","sourcebytes":[71,101,110,100,101,114],"value":"Gender"},
+{"hash":128683235,"name":"tform2.label5.caption","sourcebytes":[65,100,100,114,101,115,115],"value":"Address"},
+{"hash":70606002,"name":"tform2.label6.caption","sourcebytes":[80,104,111,110,101,32,110,117,109,98,101,114],"value":"Phone number"},
+{"hash":213899497,"name":"tform2.label7.caption","sourcebytes":[84,121,112,101,32,111,102,32,115,117,114,103,101,114,121],"value":"Type of surgery"},
+{"hash":243988350,"name":"tform2.label8.caption","sourcebytes":[68,97,121,115,32,111,102,32,104,111,115,112,105,116,97,108,105,122,97,116,105,111,110],"value":"Days of hospitalization"},
+{"hash":18340,"name":"tform2.button1.caption","sourcebytes":[65,100,100],"value":"Add"},
+{"hash":4863637,"name":"tform2.button2.caption","sourcebytes":[67,108,111,115,101],"value":"Close"},
+{"hash":5818820,"name":"tform2.button3.caption","sourcebytes":[82,101,115,101,116],"value":"Reset"},
+{"hash":5814201,"name":"tform2.label9.caption","sourcebytes":[82,101,97,100,121],"value":"Ready"}
+]}
