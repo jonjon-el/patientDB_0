@@ -47,12 +47,9 @@ begin
 end;
 
 procedure TForm1.FormCreate(Sender: TObject);
-//const
-//  filePath='patientDB.tsv';
 var
   inputStream: TFileStream;
 begin
-  //patientList:=TPatientList.Create(true);
   if FileExists(MIO.filePath) then
   begin
     try
@@ -91,28 +88,12 @@ begin
   fAdd1 := FAdd.TForm2.Create(Nil);
   fAdd1.AssignPatientList(patientList);
   fAdd1.ShowModal;
-  //if patientList.Count <> 0 then
-  //begin
-  //  Label3.Caption:='Writing patients to file...';
-  //  try
-  //    MIO.PatientListToTSVFile(patientList, MIO.filePath);
-  //  except
-  //    on E: Exception do
-  //      Label3.Caption:='Exception:'+E.ClassName;
-  //  end;
-  //end
-  //else
-  //begin
-  //  Label3.Caption:='List is empty';
-  //end;
   FreeAndNil(fAdd1);
 end;
 
 initialization
 
 finalization
-
-//patientList.Free;
 
 end.
 

@@ -14,8 +14,6 @@ const
 
 function FileStreamToPatientList(inputStream: TFileStream): TPatientList;
 
-//procedure PatientListToTSVFile(patientList: TPatientList; filePath: string);
-
 procedure PatientListToFileStream(patientList: TPatientList; outStream: TFileStream);
 
 implementation
@@ -23,32 +21,6 @@ implementation
 const
   columnSeparator = #9;
   rowSeparator = LineEnding;
-
-//function TSVFileToPatientList(filePath: string): TPatientList;
-//var
-//  //inFileStream: TFileStream;
-//  rowList: TStringList;
-//  columnList: TStringArray;
-//  patient: TPatient;
-//  i: integer;
-//begin
-//  result:=TPatientList.Create;
-//  patient:=TPatient.Create;
-//  //inFileStream:=TFileStream.Create(pathToPatientDB, fmOpenRead);
-//  rowList:=TStringList.Create;
-//  columnList:=TStringArray.Create;
-//  rowList.LoadFromFile(filePath);
-//  i:=0;
-//  while i < rowList.Count do
-//  begin
-//    columnList:=rowList[i].Split(columnSeparator);
-//    patient.NIC:=columnList[0];
-//    result.Add(patient.Clone);
-//    inc(i);
-//  end;
-//  patient.Free;
-//  rowList.Free;
-//end;
 
 procedure PatientListToFileStream(patientList: TPatientList; outStream: TFileStream);
 var

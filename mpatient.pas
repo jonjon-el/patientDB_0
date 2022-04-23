@@ -16,7 +16,6 @@ type
   TPatient = class
     public
       NIC: string;
-      //constructor Create;
       function ValidateNIC: boolean;
       function Clone(): TPatient;
   end;
@@ -24,12 +23,6 @@ type
   TPatientList = specialize TFPGObjectList<TPatient>;
 
 implementation
-
-{TPatient}
-//constructor TPatient.Create;
-//begin
-//  NIC:='0';
-//end;
 
 function TPatient.ValidateNIC: boolean;
 var

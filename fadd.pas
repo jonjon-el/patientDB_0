@@ -84,7 +84,6 @@ begin
   begin
     Label9.Caption:=patient.NIC;
     patientList.Add(patient.Clone);
-
     if patientList.Count <> 0 then
     begin
       Label9.Caption:='Writing patients to file...';
@@ -97,8 +96,6 @@ begin
         begin
           outStream:=TFileStream.Create(MIO.filepath, fmOpenWrite);
         end;
-
-        //outStream:=TFileStream.Create(MIO.filepath, fmOpenWrite);
         MIO.PatientListToFileStream(patientList, outStream);
         outStream.Free;
       except
@@ -106,11 +103,10 @@ begin
           Label9.Caption:='Exception: '+E.ClassName+' '+E.Message;
       end;
     end
-  else
-  begin
-    Label3.Caption:='List is empty';
-  end;
-
+    else
+    begin
+      Label3.Caption:='List is empty';
+    end;
   end
   else
   begin
